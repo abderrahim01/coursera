@@ -8,3 +8,4 @@ permalink: /about/
 
 Ce site est réalisé pour le cours Coursera.
 Il utilise **Jekyll** et **GitHub**.
+ ceci est pour tester GitHub Actions.
