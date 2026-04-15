@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>Mon Site Professionnel</h1>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Accueil</a>
+      <a href="{{ '/about' | relative_url }}">À propos</a>
+      <a href="{{ '/contact' | relative_url }}">Contact</a>
+    </nav>
+  </header>
+  <div class="container">
+    {{ content }}
+  </div>
+  <footer>
+    &copy; 2024 Mon Nom
+  </footer>
+</body>
+</html>
